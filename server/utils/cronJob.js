@@ -7,7 +7,7 @@ sendCountdownEmail } from "./emailService.js";
 
 
 // -----------------------------------------------------------------------------
-// JOB 1: DEADLINE CHECKER & PLAN FINALIZER
+// JOB 1: DEADLINE CHECKER & PLAN FINALIZER 
 // Runs every minute to check for plans past their deadline.
 // -----------------------------------------------------------------------------
 cron.schedule("* * * * *", async () => {
